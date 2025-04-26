@@ -1,0 +1,170 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 3vh;
+}
+.main-container{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.container{
+    display: flex;
+}
+#title-heading{
+    color: rgb(242, 27, 27);
+    text-align: center;
+}
+video{
+    margin-left: 10%;
+}
+b{
+    color: red;
+}
+#stars{
+    border-radius: 50px;
+    margin-left: 30%;
+    height: 8vh;
+    width: 40%;
+    margin-top: 4%;
+}
+#trevor{
+    margin-left: 30%;
+}
+i{
+    color: rgb(1, 1, 247);
+}
+p{
+    font-size: 1.2vw;
+    line-height: 3vh;
+}
+#reponse{
+font-weight: bolder;
+}
+.container-one{
+    background-color: none;
+    width:22%;
+}
+.container-two{
+    background-color: none;
+    width:22%;
+}
+
+#image-four{
+    width: 95%;
+    height: 40vh;
+    rotate: 10deg;
+    margin-top: 50%;
+}
+#son-patricia{
+    width: 95%;
+    rotate: 10deg;
+    margin-top: 50%;
+}
+#young-patricia{
+    width: 95%;
+    height: 30%;
+    rotate: 10deg;
+    margin-top: 50%;
+    margin-left: 10%;
+}
+#gun{
+    width: 95%;
+    rotate: 25deg;
+    margin-top: 20%;
+    margin-left: 7%;
+}
+.footer{
+    background-color: none;
+    text-align: justify;
+}
+#email{
+    width: 2%;
+    height: 2vh;
+}
+.email-address{
+    display: flex;
+    margin-top: -3%;
+    
+}
+.contact{
+    display: flex
+}
+#Layer_1{
+    width: 5%;
+}
+#Слой_1{
+    width: 5%;
+}
+u{
+    color: blue;
+}
+
+@media  (max-width:600px) {
+    #title-heading{
+        font-size: 5vw;
+    }
+p{
+    font-size: 3vw;
+    line-height: 2vh;
+}
+#stars{
+    height: 2%;
+}
+#trevor{
+    margin-left: -25%;
+    width: 150%;
+}
+#young-patricia{
+    width: 95%;
+    height: 20vh;
+    rotate: 10deg;
+    margin-top: 120%;
+    margin-left: 10%;
+}
+#image-four{
+    width: 95%;
+    height: 10vh;
+    rotate: 10deg;
+    margin-top:120%
+}
+video{
+  width: 95%;  
+  margin-left: 4%;
+  margin-top: -20%;
+}
+}
+
+@media screen and (min-width){
+    #trevor{
+        margin-left: -25%;
+        width: 150%;
+        margin-top: 15%;
+    }
+    #young-patricia{
+        width: 95%;
+        height: 25vh;
+        rotate: 10deg;
+        margin-top: 90%;
+        margin-left: 10%;
+    }
+    #image-four{
+        width: 95%;
+        height: 10vh;
+        rotate: 10deg;
+        margin-top:100%
+    }
+
+    p{
+        font-size: 2vw;
+        line-height: 2vh;
+    }
+}
+
+
+
+
+
+
+
+
+

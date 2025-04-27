@@ -40,6 +40,9 @@ p{
 #reponse{
 font-weight: bolder;
 }
+h2{
+    color: blue;
+}
 .container-one{
     background-color: none;
     width:22%;
@@ -59,7 +62,7 @@ font-weight: bolder;
 #son-patricia{
     width: 95%;
     rotate: 10deg;
-    margin-top: 220%;
+    margin-top: 350%;
     margin-left: 8%;
 }
 

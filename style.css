@@ -118,7 +118,7 @@ video{
 }
 }
 
-@media screen and (min-width){
+@media screen(min-width:600px){
     #trevor{
         margin-left: -25%;
         width: 150%;
@@ -127,7 +127,7 @@ video{
    
     #image-four{
         width: 95%;
-        height: 10vh;
+        height: 1vh;
         rotate: 10deg;
         margin-top:100%
     }
@@ -137,6 +137,7 @@ video{
         line-height: 2vh;
     }
 }
+
 
 
 

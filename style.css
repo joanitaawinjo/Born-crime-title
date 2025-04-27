@@ -54,25 +54,15 @@ font-weight: bolder;
     height: 40vh;
     rotate: 10deg;
     margin-top: 50%;
+    margin-left: -2%;
 }
 #son-patricia{
     width: 95%;
     rotate: 10deg;
-    margin-top: 50%;
+    margin-top: 220%;
+    margin-left: 8%;
 }
-#young-patricia{
-    width: 95%;
-    height: 30%;
-    rotate: 10deg;
-    margin-top: 50%;
-    margin-left: 10%;
-}
-#gun{
-    width: 95%;
-    rotate: 25deg;
-    margin-top: 20%;
-    margin-left: 7%;
-}
+
 .footer{
     background-color: none;
     text-align: justify;
@@ -114,13 +104,7 @@ p{
     margin-left: -25%;
     width: 150%;
 }
-#young-patricia{
-    width: 95%;
-    height: 20vh;
-    rotate: 10deg;
-    margin-top: 120%;
-    margin-left: 10%;
-}
+
 #image-four{
     width: 95%;
     height: 10vh;
@@ -140,13 +124,7 @@ video{
         width: 150%;
         margin-top: 15%;
     }
-    #young-patricia{
-        width: 95%;
-        height: 25vh;
-        rotate: 10deg;
-        margin-top: 90%;
-        margin-left: 10%;
-    }
+   
     #image-four{
         width: 95%;
         height: 10vh;

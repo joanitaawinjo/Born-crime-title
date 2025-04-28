@@ -92,7 +92,7 @@ u{
     color: blue;
 }
 
-@media  (max-width:600px) {
+@media  (max-width:700px) {
     #title-heading{
         font-size: 5vw;
     }
@@ -121,23 +121,20 @@ video{
 }
 }
 
-@media screen(min-width:600px){
-    #trevor{
-        margin-left: -25%;
-        width: 150%;
-        margin-top: 15%;
+
+@media (min-width:701px) and (max-width:1024px){
+    p{
+      line-height: 2.3vh;  
     }
-   
     #image-four{
         width: 95%;
-        height: 1vh;
+        height: 20vh;
         rotate: 10deg;
-        margin-top:100%
+        margin-top:120%
     }
-
-    p{
-        font-size: 2vw;
-        line-height: 2vh;
+    #trevor{
+        margin-left: 1%;
+        width: 100%;
     }
 }
 

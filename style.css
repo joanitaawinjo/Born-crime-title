@@ -1,6 +1,95 @@
+@font-face {
+    font-family: gotham;
+    src: url(urlGothamPro.ttf);
+}
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 3vh;
+    font-family: gotham;
+    color: rgb(49, 2, 49);
+    font-family: gotham;
+    background-color: rgb(233, 196, 208);
+}
+@font-face {
+    font-family: gothambold;
+    src: url(fonts/GothamPro-Bold.ttf);
+}
+@font-face {
+    font-family: gotham;
+    src: url(fonts/GothamPro.ttf);
+}
+#logo{
+    width: 3%;
+    margin-left: 50%;
+}
+#Review{
+    text-align: center;
+    color: blueviolet;
+}
+.title{
+    text-align: center;
+    font-family: gotham;
+    color: rgb(49, 2, 49);
+}
+.options{
+    display:flex;
+    gap: 2%;
+    margin-left: 25%;
+}
+.options li{
+    list-style: none;
+    display: inline;
+    font-size: 1.2vw;
+}
+a{
+  text-decoration: none;
+  color: rgb(49, 2, 49);
+}
+.options a:hover {
+    color: rgb(193, 4, 187);
+  }
+  .options a.active {
+    color: rgb(187, 63, 183);
+  }
+  .born-crime-heading{
+    background-image: linear-gradient(rgba(216, 208, 208, 0.5), rgba(0,0,0,0.5)),url(images/istockphoto-2030372454-2048x2048.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+
+  }
+.subscribe{
+    background-color: rgb(49, 2, 49);
+    color: rgb(246, 216, 245);
+    border-radius: 12px;
+    padding: 3%;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 7%;
+}
+#email{
+    width:  40%;
+    padding: 2%;
+    background-color: rgb(246, 216, 245);
+}
+.btn{
+    width: 20%;
+    padding: 2%;
+    background-color: rgb(246, 216, 245);
+    transition-duration: 0.4s;
+}
+.btn:hover{
+    background-color: rgb(193, 4, 187);
+    color: rgb(246, 216, 245);
+}
+.foot{
+    margin-top: 3%;
+}
+#copyright{
+    text-align: center;
+}
+.socials{
+    text-align: center;
+    justify-content: space-between;
+    font-size: 20px;
 }
 .main-container{
     width: 50%;
@@ -11,7 +100,7 @@ body{
     display: flex;
 }
 #title-heading{
-    color: rgb(242, 27, 27);
+    color: rgb(247, 5, 5);
     text-align: center;
 }
 video{
@@ -36,6 +125,7 @@ i{
 p{
     font-size: 1.2vw;
     line-height: 3vh;
+    text-align: justify;
 }
 #reponse{
 font-weight: bolder;
@@ -59,6 +149,9 @@ h2{
     margin-top: 50%;
     margin-left: -2%;
 }
+#reflection{
+    box-shadow: 5px 5px red;
+}
 #son-patricia{
     width: 95%;
     rotate: 10deg;
@@ -69,10 +162,7 @@ h2{
 .footer{
     background-color: none;
     text-align: justify;
-}
-#email{
-    width: 2%;
-    height: 2vh;
+
 }
 .email-address{
     display: flex;
@@ -92,7 +182,18 @@ u{
     color: blue;
 }
 
-@media  (max-width:700px) {
+
+
+
+@media only screen and (max-width:750px) {
+    body {
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        font-family: gotham;
+        position: relative;
+        height: 100%;
+    }
     #title-heading{
         font-size: 5vw;
     }
@@ -104,8 +205,8 @@ p{
     height: 2%;
 }
 #trevor{
-    margin-left: -25%;
-    width: 150%;
+    margin-left: 8%;
+    width: 80%;
 }
 
 #image-four{
@@ -114,31 +215,78 @@ p{
     rotate: 10deg;
     margin-top:120%
 }
-video{
-  width: 95%;  
-  margin-left: 4%;
-  margin-top: -20%;
+.options{
+    font-size: 6vw;
+    text-align: center;
 }
 }
 
 
-@media (min-width:701px) and (max-width:1024px){
-    p{
-      line-height: 2.3vh;  
-    }
-    #image-four{
-        width: 95%;
-        height: 20vh;
-        rotate: 10deg;
-        margin-top:120%
-    }
-    #trevor{
-        margin-left: 1%;
+@media only screen and (min-width:751px) and (max-width:999px){
+    body {
+        margin: 0;
         width: 100%;
+        padding: 0;
+        font-family: gotham;
+        position: relative;
+        height: 100%;
     }
+    #title-heading{
+        font-size: 5vw;
+    }
+p{
+    font-size: 2vw;
+    line-height: 2vh;
+}
+#stars{
+    height: 2%;
+}
+#trevor{
+    margin-left: 2%;
+    width: 90%;
+}
+
+#image-four{
+    width: 95%;
+    height: 18vh;
+    rotate: 10deg;
+    margin-top:120%
+}
+}
+
+@media only screen and (min-width:1000px){
+    body {
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        font-family: gotham;
+        position: relative;
+        height: 100%;
+    }
+    #title-heading{
+        font-size: 5vw;
+    }
+p{
+    font-size: 1.5vw;
+    line-height: 2.8vh;
+}
+#stars{
+    height: 2%;
+}
+#trevor{
+    margin-left: 15%;
+    width: 60%;
+}
+
+#image-four{
+    width: 95%;
+    height: 35vh;
+    rotate: 10deg;
+    margin-top:120%
 }
 
 
+}
 
 
 

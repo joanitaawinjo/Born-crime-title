@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Group-Book-Project/fonts"
+		},
+		{
+			"path": "../Group-Book-Project/fontss"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Born-crime-title",
+		"liveServer.settings.port": 5501
+	}
+}

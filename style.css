@@ -150,7 +150,8 @@ h2{
     margin-left: -2%;
 }
 #reflection{
-    box-shadow: 5px 5px red;
+    border: 2px rgb(233, 163, 163);
+    border-radius: 20px;
 }
 #son-patricia{
     width: 95%;
